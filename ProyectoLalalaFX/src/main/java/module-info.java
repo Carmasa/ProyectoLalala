@@ -4,6 +4,7 @@ module org.example.proyectolalalafx {
 
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
+    requires javafx.media;
 
     opens org.example.proyectolalalafx to javafx.fxml;
     exports org.example.proyectolalalafx;
