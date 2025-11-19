@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="rootPane" prefHeight="720" prefWidth="1280" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proyectolalalafx.MainController">
+
+    <!-- Fondo -->
+    <ImageView fitHeight="720" fitWidth="1280" preserveRatio="false">
+        <image>
+            <Image url="@img/fondo.png" />
+        </image>
+    </ImageView>
+
+    <ImageView fx:id="imgTierra" fitHeight="400" fitWidth="400" layoutX="50" layoutY="150" preserveRatio="true">
+        <image><Image url="@img/tierra.png" /></image>
+    </ImageView>
+
+    <ImageView fx:id="imgMarte" fitHeight="400" fitWidth="400" layoutX="250" layoutY="450" preserveRatio="true">
+        <image><Image url="@img/marte.png" /></image>
+    </ImageView>
+
+    <ImageView fx:id="imgJupiter" fitHeight="400" fitWidth="400" layoutX="450" layoutY="150" preserveRatio="true">
+        <image><Image url="@img/jupiter.png" /></image>
+    </ImageView>
+
+    <ImageView fx:id="imgSaturno" fitHeight="400" fitWidth="400" layoutX="650" layoutY="450" preserveRatio="true">
+        <image><Image url="@img/saturno.png" /></image>
+    </ImageView>
+
+    <ImageView fx:id="imgUrano" fitHeight="400" fitWidth="400" layoutX="850" layoutY="150" preserveRatio="true">
+        <image><Image url="@img/urano.png" /></image>
+    </ImageView>
+
+    <ImageView fitHeight="150" fitWidth="150" layoutX="-40" layoutY="0" preserveRatio="true">
+        <image>
+            <Image url="@img/luna.png" />
+        </image>
+    </ImageView>
+
+    <ImageView fitHeight="500" fitWidth="500" layoutX="987.0" layoutY="-81.0" preserveRatio="true">
+        <image>
+            <Image url="@img/sol.png" />
+        </image>
+    </ImageView>
+
+</Pane>
