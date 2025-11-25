@@ -17,7 +17,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GameSaturno {
+public class GameUrano {
 
     @FXML private ImageView muñeco;
     @FXML private Circle zonaCabeza, zonaMano1, zonaMano2, zonaPiernaIzq, zonaPiernaDer, zonaOreja1, zonaCodo1, zonaHombre,
