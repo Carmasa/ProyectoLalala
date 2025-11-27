@@ -2,16 +2,17 @@
 
 package org.example.proyectolalalafx;
 
+import java.io.IOException;
+
 import javafx.animation.RotateTransition;
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
-
-import java.io.IOException;
 
 public class MainController {
 
@@ -20,6 +21,9 @@ public class MainController {
 
     @FXML
     public void initialize() {
+        // Detener música al volver al menú principal
+        MusicManager.stopMusic();
+        
         // Iniciar animaciones con configuraciones únicas
         iniciarAnimaciones();
 
@@ -70,8 +74,10 @@ public class MainController {
                 default        -> "game-view.fxml";
             };
 
-            Parent gameView = FXMLLoader.load(getClass().getResource(archivoFXML));
-            rootPane.getChildren().setAll(gameView);
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(archivoFXML));
+            Scene newScene = new Scene(loader.load(), 1920, 1080);
+            Stage stage = (Stage) rootPane.getScene().getWindow();
+            stage.setScene(newScene);
 
         } catch (IOException ex) {
             ex.printStackTrace();
