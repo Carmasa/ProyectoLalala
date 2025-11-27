@@ -7,5 +7,7 @@ module org.example.proyectolalalafx {
     requires javafx.media;
 
     opens org.example.proyectolalalafx to javafx.fxml;
+    opens org.example.proyectolalalafx.marte to javafx.fxml;
     exports org.example.proyectolalalafx;
+    exports org.example.proyectolalalafx.marte;
 }

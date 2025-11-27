@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<StackPane fx:id="contenedorJuego" 
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="org.example.proyectolalalafx.MarteController"
+           prefWidth="1920" 
+           prefHeight="1080"
+           style="-fx-background-color: linear-gradient(to bottom, #2C3E50, #8B4513);">
+    
+    <!-- Luna para volver al menú principal -->
+    <ImageView fitHeight="225" fitWidth="225" 
+               onMouseClicked="#volverAlMenu" pickOnBounds="true" preserveRatio="true"
+               style="-fx-cursor: hand;"
+               StackPane.alignment="TOP_RIGHT"
+               translateX="-50" translateY="30">
+        <Image url="@img/luna.png" />
+    </ImageView>
+</StackPane>
