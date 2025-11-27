@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.image.Image?>
+<Pane xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.proyectolalalafx.JupiterController"
+      fx:id="rootPane"
+      prefWidth="1200" prefHeight="800">
+
+    <!-- Imágenes de colores -->
+    <ImageView fx:id="imgAmarillo" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgAzul" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgMarron" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgMorado" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgNaranja" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgRojo" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgRosa" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgVerde" fitWidth="150" fitHeight="150" pickOnBounds="true"/>
+    <ImageView fx:id="imgLuna" fitHeight="187.5" fitWidth="244.5" layoutX="-63.0" layoutY="-13.5" onMouseClicked="#goBack" preserveRatio="true">
+        <image>
+            <Image url="@img/luna.png" />
+        </image>
+    </ImageView>
+    <!-- Botón repetir como ImageView -->
+    <ImageView fx:id="btnRepetir" pickOnBounds="true"/>
+
+</Pane>

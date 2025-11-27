@@ -38,7 +38,7 @@ public class MainController {
     private void iniciarAnimaciones() {
         crearAnimacionPersonalizada(imgTierra, 3.0, -8, 2.0);
         crearAnimacionPersonalizada(imgMarte, 2.5, -5, 1.0);
-        crearAnimacionPersonalizada(imgJupiter, 4.0, -10, 0.0);
+        crearAnimacionPersonalizada(imgJupiter, 4.0, -10, 2.0);
         crearAnimacionPersonalizada(imgSaturno, 3.5, -7, 1.0);
         crearAnimacionPersonalizada(imgUrano, 3.2, -9, -1.5);
     }
