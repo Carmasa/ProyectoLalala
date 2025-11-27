@@ -10,7 +10,7 @@
     <children>
 
         <!-- Imagen de fondo (niño) -->
-        <ImageView fx:id="muñeco" fitHeight="720" fitWidth="1280" preserveRatio="false">
+        <ImageView fx:id="muñeco" fitHeight="1080" fitWidth="1920" preserveRatio="false">
             <image>
                 <Image url="@img/nino.png" />
             </image>
@@ -19,127 +19,128 @@
         <!-- Zonas clicables - POSICIONADAS ABSOLUTAMENTE -->
 
         <!-- Cabeza -->
-        <Circle fill="white" layoutX="616.0" layoutY="167.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaCabeza" fill="transparent" layoutX="616.0" layoutY="167.0" onMouseClicked="#onParteClick" radius="24.0" />
+        <Circle fill="white" layoutX="924.0" layoutY="250.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaCabeza" fill="transparent" layoutX="924.0" layoutY="250.5" onMouseClicked="#onParteClick" radius="36.0" />
 
         <!-- Mano izquierda -->
-        <Circle fill="white" layoutX="356.0" layoutY="340.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaMano1" fill="transparent" layoutX="356.0" layoutY="340.0" onMouseClicked="#onParteClick" radius="25" />
+        <Circle fill="white" layoutX="534.0" layoutY="510.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaMano1" fill="transparent" layoutX="534.0" layoutY="510.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Mano derecha -->
-        <Circle fill="white" layoutX="877.0" layoutY="340.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaMano2" fill="transparent" layoutX="877.0" layoutY="340.0" onMouseClicked="#onParteClick" radius="25" />
+        <Circle fill="white" layoutX="1315.5" layoutY="510.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaMano2" fill="transparent" layoutX="1315.5" layoutY="510.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Pierna izquierda -->
-        <Circle fill="white" layoutX="556.0" layoutY="594.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPiernaIzq" fill="transparent" layoutX="556.0" layoutY="594.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="834.0" layoutY="891.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPiernaIzq" fill="transparent" layoutX="834.0" layoutY="891.0" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Pierna derecha -->
-        <Circle fill="white" layoutX="692.0" layoutY="594.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPiernaDer" fill="transparent" layoutX="692.0" layoutY="594.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="1038.0" layoutY="891.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPiernaDer" fill="transparent" layoutX="1038.0" layoutY="891.0" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Oreja derecha -->
-        <Circle fill="white" layoutX="778.0" layoutY="248.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaOreja1" fill="transparent" layoutX="778.0" layoutY="248.0" onMouseClicked="#onParteClick" radius="30" />
+        <Circle fill="white" layoutX="1167.0" layoutY="372.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaOreja1" fill="transparent" layoutX="1167.0" layoutY="372.0" onMouseClicked="#onParteClick" radius="45.0" />
 
         <!-- Codo derecho -->
-        <Circle fill="white" layoutX="803.0" layoutY="360.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaCodo1" fill="transparent" layoutX="803.0" layoutY="360.0" onMouseClicked="#onParteClick" radius="25.0" />
+        <Circle fill="white" layoutX="1204.5" layoutY="540.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaCodo1" fill="transparent" layoutX="1204.5" layoutY="540.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Hombro izquierdo -->
-        <Circle fill="white" layoutX="525.0" layoutY="340.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaHombre" fill="transparent" layoutX="525.0" layoutY="340.0" onMouseClicked="#onParteClick" radius="25.0" />
+        <Circle fill="white" layoutX="787.5" layoutY="510.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaHombre" fill="transparent" layoutX="787.5" layoutY="510.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Codo izquierdo -->
-        <Circle fill="white" layoutX="439.0" layoutY="350.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaCodo2" fill="transparent" layoutX="439.0" layoutY="350.0" onMouseClicked="#onParteClick" radius="25.0" />
+        <Circle fill="white" layoutX="658.5" layoutY="525.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaCodo2" fill="transparent" layoutX="658.5" layoutY="525.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Oreja izquierda -->
-        <Circle fill="white" layoutX="469.0" layoutY="237.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaOreja2" fill="transparent" layoutX="469.0" layoutY="237.0" onMouseClicked="#onParteClick" radius="30" />
+        <Circle fill="white" layoutX="703.5" layoutY="355.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaOreja2" fill="transparent" layoutX="703.5" layoutY="355.5" onMouseClicked="#onParteClick" radius="45.0" />
 
         <!-- Torso -->
-        <Circle fill="white" layoutX="621.0" layoutY="410.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaTorso" fill="transparent" layoutX="621.0" layoutY="410.0" onMouseClicked="#onParteClick" radius="25.0" />
+        <Circle fill="white" layoutX="931.5" layoutY="615.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaTorso" fill="transparent" layoutX="931.5" layoutY="615.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Cuello -->
-        <Circle fill="white" layoutX="627.0" layoutY="335.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaCuello" fill="transparent" layoutX="627.0" layoutY="335.0" onMouseClicked="#onParteClick" radius="25.0" />
+        <Circle fill="white" layoutX="940.5" layoutY="502.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaCuello" fill="transparent" layoutX="940.5" layoutY="502.5" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Hombro derecho -->
-        <Circle fill="white" layoutX="724.0" layoutY="340.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaHombro" fill="transparent" layoutX="724.0" layoutY="340.0" onMouseClicked="#onParteClick" radius="25.0" />
+        <Circle fill="white" layoutX="1086.0" layoutY="510.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaHombro" fill="transparent" layoutX="1086.0" layoutY="510.0" onMouseClicked="#onParteClick" radius="37.5" />
 
         <!-- Ojo izquierdo -->
-        <Circle fill="white" layoutX="544.0" layoutY="218.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaOjo1" fill="transparent" layoutX="544.0" layoutY="218.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="816.0" layoutY="327.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaOjo1" fill="transparent" layoutX="816.0" layoutY="327.0" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Boca -->
-        <Circle fill="white" layoutX="616.0" layoutY="285.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaBoca" fill="transparent" layoutX="616.0" layoutY="285.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="924.0" layoutY="427.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaBoca" fill="transparent" layoutX="924.0" layoutY="427.5" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Ojo derecho -->
-        <Circle fill="white" layoutX="671.0" layoutY="218.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaOjo2" fill="transparent" layoutX="671.0" layoutY="218.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="1006.5" layoutY="327.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaOjo2" fill="transparent" layoutX="1006.5" layoutY="327.0" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Pie izquierdo -->
-        <Circle fill="white" layoutX="525.0" layoutY="663.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPie1" fill="transparent" layoutX="525.0" layoutY="663.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="787.5" layoutY="994.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPie1" fill="transparent" layoutX="787.5" layoutY="994.5" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Muslo izquierdo -->
-        <Circle fill="white" layoutX="563.0" layoutY="540.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPierna1" fill="transparent" layoutX="563.0" layoutY="540.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="844.5" layoutY="810.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPierna1" fill="transparent" layoutX="844.5" layoutY="810.0" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Pelo -->
-        <Circle fill="white" layoutX="671.0" layoutY="77.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPelo" fill="transparent" layoutX="671.0" layoutY="77.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="1006.5" layoutY="115.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPelo" fill="transparent" layoutX="1006.5" layoutY="115.5" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Pie derecho -->
-        <Circle fill="white" layoutX="730.0" layoutY="669.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPie" fill="transparent" layoutX="730.0" layoutY="669.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="1095.0" layoutY="1003.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPie" fill="transparent" layoutX="1095.0" layoutY="1003.5" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Nariz -->
-        <Circle fill="white" layoutX="602.0" layoutY="237.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaNariz" fill="transparent" layoutX="602.0" layoutY="237.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="903.0" layoutY="355.5" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaNariz" fill="transparent" layoutX="903.0" layoutY="355.5" onMouseClicked="#onParteClick" radius="28.5" />
 
         <!-- Muslo derecho -->
-        <Circle fill="white" layoutX="680.0" layoutY="540.0" opacity="0.5" radius="5.0" />
-        <Circle fx:id="zonaPierna2" fill="transparent" layoutX="680.0" layoutY="540.0" onMouseClicked="#onParteClick" radius="19.0" />
+        <Circle fill="white" layoutX="1020.0" layoutY="810.0" opacity="0.5" radius="7.5" />
+        <Circle fx:id="zonaPierna2" fill="transparent" layoutX="1020.0" layoutY="810.0" onMouseClicked="#onParteClick" radius="28.5" />
 
-        <ImageView fx:id="imgEng" fitHeight="27.0" fitWidth="60.0" layoutX="1150" layoutY="10" onMouseClicked="#cambiarAIngles" preserveRatio="true">
+        <!-- Botones de idioma y volver -->
+        <ImageView fx:id="imgEng" fitHeight="40.5" fitWidth="90.0" layoutX="1725.0" layoutY="15.0" onMouseClicked="#cambiarAIngles" preserveRatio="true">
             <image>
                 <Image url="@img/eng.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="imgEsp" fitHeight="27.0" fitWidth="54.0" layoutX="1086.0" layoutY="10" onMouseClicked="#cambiarAEspanol" preserveRatio="true">
+        <ImageView fx:id="imgEsp" fitHeight="40.5" fitWidth="81.0" layoutX="1629.0" layoutY="15.0" onMouseClicked="#cambiarAEspanol" preserveRatio="true">
             <image>
                 <Image url="@img/esp.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="imgLuna" fitHeight="125.0" fitWidth="163.0" layoutX="-42.0" layoutY="-9.0" onMouseClicked="#goBack" preserveRatio="true">
+        <ImageView fx:id="imgLuna" fitHeight="187.5" fitWidth="244.5" layoutX="-63.0" layoutY="-13.5" onMouseClicked="#goBack" preserveRatio="true">
             <image>
                 <Image url="@img/luna.png" />
             </image>
         </ImageView>
 
         <!-- Modo de juego nuevo encuentra la parte del cuerpo -->
-        <VBox fx:id="gameModeContainer" alignment="CENTER" layoutX="950.0" layoutY="200.0" prefWidth="280.0" spacing="20.0" style="-fx-background-color: rgba(255, 255, 255, 0.9); -fx-background-radius: 15; -fx-padding: 20;" visible="false">
+        <VBox fx:id="gameModeContainer" alignment="CENTER" layoutX="1425.0" layoutY="300.0" prefWidth="420.0" spacing="30.0" style="-fx-background-color: rgba(255, 255, 255, 0.9); -fx-background-radius: 15; -fx-padding: 30;" visible="false">
             <children>
                 <!-- Title Label -->
-                <Label style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333333;" text="¡Encuentra!" />
-                
+                <Label style="-fx-font-size: 27px; -fx-font-weight: bold; -fx-text-fill: #333333;" text="¡Encuentra!" />
+
                 <!-- Label parte del cuerpo-->
-                <Label fx:id="lblTargetParte" style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #FF6B6B; -fx-background-color: #FFF3E0; -fx-padding: 15; -fx-background-radius: 10;" text="Brazo" />
-                
+                <Label fx:id="lblTargetParte" style="-fx-font-size: 48px; -fx-font-weight: bold; -fx-text-fill: #FF6B6B; -fx-background-color: #FFF3E0; -fx-padding: 22.5; -fx-background-radius: 15;" text="Brazo" />
+
                 <!-- Boton de repetir -->
-                <Button fx:id="btnRepetir" onAction="#repetirAudio" prefWidth="200.0" style="-fx-font-size: 16px; -fx-background-color: #4ECDC4; -fx-text-fill: white; -fx-background-radius: 10; -fx-padding: 10;" text="🔊 Repetir" />
+                <Button fx:id="btnRepetir" onAction="#repetirAudio" prefWidth="300.0" style="-fx-font-size: 24px; -fx-background-color: #4ECDC4; -fx-text-fill: white; -fx-background-radius: 15; -fx-padding: 15;" text="🔊 Repetir" />
             </children>
         </VBox>
 
         <!-- Play Game Button -->
-        <Button fx:id="btnJugar" layoutX="1050.0" layoutY="630.0" onAction="#iniciarJuego" prefWidth="180.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-background-color: #95E1D3; -fx-text-fill: #2C3E50; -fx-background-radius: 15; -fx-padding: 15;" text="▶ Jugar" />
+        <Button fx:id="btnJugar" layoutX="1575.0" layoutY="945.0" onAction="#iniciarJuego" prefWidth="270.0" style="-fx-font-size: 30px; -fx-font-weight: bold; -fx-background-color: #95E1D3; -fx-text-fill: #2C3E50; -fx-background-radius: 22.5; -fx-padding: 22.5;" text="▶ Jugar" />
 
     </children>
 </AnchorPane>
