@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" style="-fx-background-color: black;"
+            xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.MenuController">
+
+    <!-- =======================
+         GRUPO ESCALABLE (menu)
+         ======================= -->
+    <Pane fx:id="contentGroup"
+          prefHeight="1080" prefWidth="1920"
+          scaleX="1.0" scaleY="1.0">
+
+        <!-- FONDO -->
+        <ImageView fitHeight="1080" fitWidth="1920"
+                   pickOnBounds="true" preserveRatio="false">
+            <image>
+                <Image url="@../menu/menuDef4.png" />
+            </image>
+        </ImageView>
+
+
+        <!-- ============================
+             BOTÓN JUGAR
+             ============================ -->
+        <ImageView fx:id="jugarImg"
+                   fitHeight="330.0" fitWidth="510.0"
+                   layoutX="400.0" layoutY="370.0"
+                   pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/botonJugar.png" />
+            </image>
+        </ImageView>
+
+        <!-- área invisible -->
+        <Button fx:id="playButton"
+                layoutX="450.0" layoutY="450.0"
+                opacity="0.0"
+                prefWidth="300.0" prefHeight="150.0"
+                onAction="#handlePlay"
+                style="-fx-cursor: hand;" />
+
+
+        <!-- ============================
+             BOTÓN SALIR
+             ============================ -->
+        <ImageView fx:id="salirImg"
+                   fitHeight="360.0" fitWidth="620.0"
+                   layoutX="380.0" layoutY="640.0"
+                   pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/botonSalir.png" />
+            </image>
+        </ImageView>
+
+        <!-- área invisible -->
+        <Button fx:id="exitButton"
+                layoutX="490.0" layoutY="730.0"
+                opacity="0.0"
+                prefWidth="300.0" prefHeight="150.0"
+                onAction="#handleExit"
+                style="-fx-cursor: hand;" />
+
+
+    </Pane>
+
+</AnchorPane>

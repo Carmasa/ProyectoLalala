@@ -68,8 +68,8 @@ public class MainController {
             String archivoFXML = switch (planeta) {
                 case "Tierra"  -> "tierra-view.fxml";
                 case "Marte"   -> "marte-view.fxml";
-                case "Jupiter" -> "jupiter-view.fxml";
-                case "Saturno" -> "saturno-view.fxml";
+                case "Jupiter" -> "jupiter-iew.fxml";
+                case "Saturno" -> "/app/menuView.fxml";
                 case "Urano"   -> "urano-view.fxml";
                 default        -> "game-view.fxml";
             };
